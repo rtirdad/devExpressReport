@@ -6,9 +6,9 @@ using System.Drawing;
 
 namespace devExpressReport
 {
-    public partial class BlankReport : DevExpress.XtraReports.UI.XtraReport
+    public partial class XtraReport1 : DevExpress.XtraReports.UI.XtraReport
     {
-        public BlankReport()
+        public XtraReport1()
         {
             InitializeComponent();
         }

@@ -45,52 +45,62 @@
             DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode12 = new DevExpress.DataAccess.Json.JsonSchemaNode("Fax", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
             DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode13 = new DevExpress.DataAccess.Json.JsonSchemaNode("Region", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
             DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings1 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings2 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings3 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings4 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings5 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings6 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
+            this.jsonDataSource1 = new DevExpress.DataAccess.Json.JsonDataSource(this.components);
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
-            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
-            this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader3 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader4 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader5 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader6 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
-            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
             this.pageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
             this.pageInfo2 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
             this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table1 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow1 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table2 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell3 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell4 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader3 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table3 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell6 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader4 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table4 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow4 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader5 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table5 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow5 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell9 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell10 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader6 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.table6 = new DevExpress.XtraReports.UI.XRTable();
             this.tableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
             this.tableCell11 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell12 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
             this.label2 = new DevExpress.XtraReports.UI.XRLabel();
-            this.jsonDataSource1 = new DevExpress.DataAccess.Json.JsonDataSource(this.components);
             this.Title = new DevExpress.XtraReports.UI.XRControlStyle();
             this.GroupCaption1 = new DevExpress.XtraReports.UI.XRControlStyle();
             this.GroupData1 = new DevExpress.XtraReports.UI.XRControlStyle();
             this.GroupFooterBackground3 = new DevExpress.XtraReports.UI.XRControlStyle();
             this.PageInfo = new DevExpress.XtraReports.UI.XRControlStyle();
             this.ContactName = new DevExpress.XtraReports.Parameters.Parameter();
+            this.City = new DevExpress.XtraReports.Parameters.Parameter();
+            this.CompanyName = new DevExpress.XtraReports.Parameters.Parameter();
+            this.ContactTitle = new DevExpress.XtraReports.Parameters.Parameter();
+            this.Phone = new DevExpress.XtraReports.Parameters.Parameter();
+            this.Id = new DevExpress.XtraReports.Parameters.Parameter();
             ((System.ComponentModel.ISupportInitialize)(this.table1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table3)).BeginInit();
@@ -98,6 +108,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.table5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // jsonDataSource1
+            // 
+            customJsonSource1.Json = resources.GetString("customJsonSource1.Json");
+            this.jsonDataSource1.JsonSource = customJsonSource1;
+            this.jsonDataSource1.Name = "jsonDataSource1";
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode3);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode4);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode5);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode6);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode7);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode8);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode9);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode10);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode11);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode12);
+            jsonSchemaNode2.Nodes.Add(jsonSchemaNode13);
+            jsonSchemaNode1.Nodes.Add(jsonSchemaNode2);
+            this.jsonDataSource1.Schema = jsonSchemaNode1;
             // 
             // TopMargin
             // 
@@ -109,92 +138,6 @@
             this.pageInfo1,
             this.pageInfo2});
             this.BottomMargin.Name = "BottomMargin";
-            // 
-            // ReportHeader
-            // 
-            this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.label1});
-            this.ReportHeader.HeightF = 60F;
-            this.ReportHeader.Name = "ReportHeader";
-            // 
-            // GroupHeader1
-            // 
-            this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table1});
-            this.GroupHeader1.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("Id", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader1.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader1.HeightF = 27F;
-            this.GroupHeader1.Level = 1;
-            this.GroupHeader1.Name = "GroupHeader1";
-            // 
-            // GroupHeader2
-            // 
-            this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table2});
-            this.GroupHeader2.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("Phone", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader2.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader2.HeightF = 27F;
-            this.GroupHeader2.Level = 2;
-            this.GroupHeader2.Name = "GroupHeader2";
-            // 
-            // GroupHeader3
-            // 
-            this.GroupHeader3.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table3});
-            this.GroupHeader3.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("City", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader3.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader3.HeightF = 27F;
-            this.GroupHeader3.Level = 3;
-            this.GroupHeader3.Name = "GroupHeader3";
-            // 
-            // GroupHeader4
-            // 
-            this.GroupHeader4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table4});
-            this.GroupHeader4.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("ContactTitle", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader4.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader4.HeightF = 27F;
-            this.GroupHeader4.Level = 4;
-            this.GroupHeader4.Name = "GroupHeader4";
-            // 
-            // GroupHeader5
-            // 
-            this.GroupHeader5.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table5});
-            this.GroupHeader5.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("ContactName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader5.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader5.HeightF = 27F;
-            this.GroupHeader5.Level = 5;
-            this.GroupHeader5.Name = "GroupHeader5";
-            // 
-            // GroupHeader6
-            // 
-            this.GroupHeader6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.table6});
-            this.GroupHeader6.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
-            new DevExpress.XtraReports.UI.GroupField("CompanyName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
-            this.GroupHeader6.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
-            this.GroupHeader6.HeightF = 27F;
-            this.GroupHeader6.Level = 6;
-            this.GroupHeader6.Name = "GroupHeader6";
-            // 
-            // Detail
-            // 
-            this.Detail.HeightF = 0F;
-            this.Detail.Name = "Detail";
-            // 
-            // GroupFooter1
-            // 
-            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.label2});
-            this.GroupFooter1.GroupUnion = DevExpress.XtraReports.UI.GroupFooterUnion.WithLastDetail;
-            this.GroupFooter1.HeightF = 6F;
-            this.GroupFooter1.Name = "GroupFooter1";
             // 
             // pageInfo1
             // 
@@ -213,6 +156,13 @@
             this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             this.pageInfo2.TextFormatString = "Page {0} of {1}";
             // 
+            // ReportHeader
+            // 
+            this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.label1});
+            this.ReportHeader.HeightF = 60F;
+            this.ReportHeader.Name = "ReportHeader";
+            // 
             // label1
             // 
             this.label1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
@@ -220,6 +170,17 @@
             this.label1.SizeF = new System.Drawing.SizeF(650F, 24.19433F);
             this.label1.StyleName = "Title";
             this.label1.Text = "Employee Report";
+            // 
+            // GroupHeader1
+            // 
+            this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table1});
+            this.GroupHeader1.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("Id", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader1.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader1.HeightF = 27F;
+            this.GroupHeader1.Level = 1;
+            this.GroupHeader1.Name = "GroupHeader1";
             // 
             // table1
             // 
@@ -252,6 +213,17 @@
             this.tableCell2.StyleName = "GroupData1";
             this.tableCell2.Weight = 0.97006357046274039D;
             // 
+            // GroupHeader2
+            // 
+            this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table2});
+            this.GroupHeader2.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("Phone", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader2.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader2.HeightF = 27F;
+            this.GroupHeader2.Level = 2;
+            this.GroupHeader2.Name = "GroupHeader2";
+            // 
             // table2
             // 
             this.table2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 2F);
@@ -282,6 +254,17 @@
             this.tableCell4.Name = "tableCell4";
             this.tableCell4.StyleName = "GroupData1";
             this.tableCell4.Weight = 0.92500328650841346D;
+            // 
+            // GroupHeader3
+            // 
+            this.GroupHeader3.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table3});
+            this.GroupHeader3.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("City", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader3.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader3.HeightF = 27F;
+            this.GroupHeader3.Level = 3;
+            this.GroupHeader3.Name = "GroupHeader3";
             // 
             // table3
             // 
@@ -314,6 +297,17 @@
             this.tableCell6.StyleName = "GroupData1";
             this.tableCell6.Weight = 10090897D;
             // 
+            // GroupHeader4
+            // 
+            this.GroupHeader4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table4});
+            this.GroupHeader4.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("ContactTitle", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader4.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader4.HeightF = 27F;
+            this.GroupHeader4.Level = 4;
+            this.GroupHeader4.Name = "GroupHeader4";
+            // 
             // table4
             // 
             this.table4.LocationFloat = new DevExpress.Utils.PointFloat(0F, 2F);
@@ -344,6 +338,17 @@
             this.tableCell8.Name = "tableCell8";
             this.tableCell8.StyleName = "GroupData1";
             this.tableCell8.Weight = 0.8476647010216346D;
+            // 
+            // GroupHeader5
+            // 
+            this.GroupHeader5.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table5});
+            this.GroupHeader5.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("ContactName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader5.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader5.HeightF = 27F;
+            this.GroupHeader5.Level = 5;
+            this.GroupHeader5.Name = "GroupHeader5";
             // 
             // table5
             // 
@@ -376,6 +381,17 @@
             this.tableCell10.StyleName = "GroupData1";
             this.tableCell10.Weight = 0.84472092848557689D;
             // 
+            // GroupHeader6
+            // 
+            this.GroupHeader6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.table6});
+            this.GroupHeader6.GroupFields.AddRange(new DevExpress.XtraReports.UI.GroupField[] {
+            new DevExpress.XtraReports.UI.GroupField("CompanyName", DevExpress.XtraReports.UI.XRColumnSortOrder.Ascending)});
+            this.GroupHeader6.GroupUnion = DevExpress.XtraReports.UI.GroupUnion.WithFirstDetail;
+            this.GroupHeader6.HeightF = 27F;
+            this.GroupHeader6.Level = 6;
+            this.GroupHeader6.Name = "GroupHeader6";
+            // 
             // table6
             // 
             this.table6.LocationFloat = new DevExpress.Utils.PointFloat(0F, 2F);
@@ -407,6 +423,19 @@
             this.tableCell12.StyleName = "GroupData1";
             this.tableCell12.Weight = 0.84078725961538459D;
             // 
+            // Detail
+            // 
+            this.Detail.HeightF = 0F;
+            this.Detail.Name = "Detail";
+            // 
+            // GroupFooter1
+            // 
+            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.label2});
+            this.GroupFooter1.GroupUnion = DevExpress.XtraReports.UI.GroupFooterUnion.WithLastDetail;
+            this.GroupFooter1.HeightF = 6F;
+            this.GroupFooter1.Name = "GroupFooter1";
+            // 
             // label2
             // 
             this.label2.Borders = DevExpress.XtraPrinting.BorderSide.None;
@@ -415,25 +444,6 @@
             this.label2.SizeF = new System.Drawing.SizeF(650F, 2.08F);
             this.label2.StyleName = "GroupFooterBackground3";
             this.label2.StylePriority.UseBorders = false;
-            // 
-            // jsonDataSource1
-            // 
-            customJsonSource1.Json = resources.GetString("customJsonSource1.Json");
-            this.jsonDataSource1.JsonSource = customJsonSource1;
-            this.jsonDataSource1.Name = "jsonDataSource1";
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode3);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode4);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode5);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode6);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode7);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode8);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode9);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode10);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode11);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode12);
-            jsonSchemaNode2.Nodes.Add(jsonSchemaNode13);
-            jsonSchemaNode1.Nodes.Add(jsonSchemaNode2);
-            this.jsonDataSource1.Schema = jsonSchemaNode1;
             // 
             // Title
             // 
@@ -502,6 +512,69 @@
             dynamicListLookUpSettings1.ValueMember = "ContactName";
             this.ContactName.ValueSourceSettings = dynamicListLookUpSettings1;
             // 
+            // City
+            // 
+            this.City.Description = "City";
+            this.City.Name = "City";
+            dynamicListLookUpSettings2.DataMember = "Customers";
+            dynamicListLookUpSettings2.DataSource = this.jsonDataSource1;
+            dynamicListLookUpSettings2.DisplayMember = "City";
+            dynamicListLookUpSettings2.SortMember = "City";
+            dynamicListLookUpSettings2.ValueMember = "City";
+            this.City.ValueSourceSettings = dynamicListLookUpSettings2;
+            // 
+            // CompanyName
+            // 
+            this.CompanyName.Description = "CompanyName";
+            this.CompanyName.Name = "CompanyName";
+            dynamicListLookUpSettings3.DataMember = "Customers";
+            dynamicListLookUpSettings3.DataSource = this.jsonDataSource1;
+            dynamicListLookUpSettings3.DisplayMember = "CompanyName";
+            dynamicListLookUpSettings3.FilterString = null;
+            dynamicListLookUpSettings3.SortMember = "CompanyName";
+            dynamicListLookUpSettings3.SortOrder = DevExpress.Data.ColumnSortOrder.Ascending;
+            dynamicListLookUpSettings3.ValueMember = "CompanyName";
+            this.CompanyName.ValueSourceSettings = dynamicListLookUpSettings3;
+            // 
+            // ContactTitle
+            // 
+            this.ContactTitle.Description = "ContactTitle";
+            this.ContactTitle.Name = "ContactTitle";
+            dynamicListLookUpSettings4.DataMember = "Customers";
+            dynamicListLookUpSettings4.DataSource = this.jsonDataSource1;
+            dynamicListLookUpSettings4.DisplayMember = "ContactTitle";
+            dynamicListLookUpSettings4.FilterString = null;
+            dynamicListLookUpSettings4.SortMember = "ContactTitle";
+            dynamicListLookUpSettings4.SortOrder = DevExpress.Data.ColumnSortOrder.Ascending;
+            dynamicListLookUpSettings4.ValueMember = "ContactTitle";
+            this.ContactTitle.ValueSourceSettings = dynamicListLookUpSettings4;
+            // 
+            // Phone
+            // 
+            this.Phone.Description = "Phone";
+            this.Phone.Name = "Phone";
+            dynamicListLookUpSettings5.DataMember = "Customers";
+            dynamicListLookUpSettings5.DataSource = this.jsonDataSource1;
+            dynamicListLookUpSettings5.DisplayMember = "Phone";
+            dynamicListLookUpSettings5.FilterString = null;
+            dynamicListLookUpSettings5.SortMember = "Phone";
+            dynamicListLookUpSettings5.SortOrder = DevExpress.Data.ColumnSortOrder.Ascending;
+            dynamicListLookUpSettings5.ValueMember = "Phone";
+            this.Phone.ValueSourceSettings = dynamicListLookUpSettings5;
+            // 
+            // Id
+            // 
+            this.Id.Description = "Id";
+            this.Id.Name = "Id";
+            dynamicListLookUpSettings6.DataMember = "Customers";
+            dynamicListLookUpSettings6.DataSource = this.jsonDataSource1;
+            dynamicListLookUpSettings6.DisplayMember = "Id";
+            dynamicListLookUpSettings6.FilterString = null;
+            dynamicListLookUpSettings6.SortMember = "Id";
+            dynamicListLookUpSettings6.SortOrder = DevExpress.Data.ColumnSortOrder.Ascending;
+            dynamicListLookUpSettings6.ValueMember = "Id";
+            this.Id.ValueSourceSettings = dynamicListLookUpSettings6;
+            // 
             // CompanyInfoReport
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -520,12 +593,23 @@
             this.jsonDataSource1});
             this.DataMember = "Customers";
             this.DataSource = this.jsonDataSource1;
-            this.FilterString = "[ContactName] = ?ContactName";
+            this.FilterString = "[ContactName] = ?ContactName Or [City] = ?City Or [CompanyName] = ?CompanyName Or" +
+    " [ContactTitle] = ?ContactTitle Or [Phone] = ?Phone Or [Id] = ?Id";
             this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
             this.ParameterPanelLayoutItems.AddRange(new DevExpress.XtraReports.Parameters.ParameterPanelLayoutItem[] {
-            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.ContactName, DevExpress.XtraReports.Parameters.Orientation.Horizontal)});
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.CompanyName, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.ContactName, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.ContactTitle, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.City, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.Phone, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.Id, DevExpress.XtraReports.Parameters.Orientation.Horizontal)});
             this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
-            this.ContactName});
+            this.CompanyName,
+            this.ContactName,
+            this.ContactTitle,
+            this.City,
+            this.Phone,
+            this.Id});
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.GroupCaption1,
@@ -591,5 +675,10 @@
         private DevExpress.XtraReports.UI.XRControlStyle GroupFooterBackground3;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
         private DevExpress.XtraReports.Parameters.Parameter ContactName;
+        private DevExpress.XtraReports.Parameters.Parameter City;
+        private DevExpress.XtraReports.Parameters.Parameter CompanyName;
+        private DevExpress.XtraReports.Parameters.Parameter ContactTitle;
+        private DevExpress.XtraReports.Parameters.Parameter Phone;
+        private DevExpress.XtraReports.Parameters.Parameter Id;
     }
 }
